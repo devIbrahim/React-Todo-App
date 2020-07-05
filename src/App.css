@@ -1,4 +1,110 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #282c34;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  display: block;
+  margin: 1.5em auto 0 auto;
+}
+
+.app-title {
+  text-align: center;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin: 0.5em 0;
+  font-size: 2.5rem;
+  letter-spacing: 7.8px;
+}
+
+.container {
+  max-width: 429px;
+  margin: 2em auto 0 auto;
+  background: #3a3d42;
+  border: 1.5px solid white;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-todo-input {
+  width: 71.7%;
+  font-size: 1.2rem;
+  padding: 0.5em 1em;
+  background: none;
+  border: 1.5px solid white;
+  border-top: none;
+  border-left: none;
+  color: white;
+  outline: none;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.add-todo-btn {
+  font-size: 1.05rem;
+  padding: 0.4em;
+  width: 28.3%;
+  border: none;
+  background: white;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 1em 0;
+}
+.flex {
+  display: flex;
+  width: 80%;
+  align-items: center;
+}
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5em 0;
+}
+.todo-list .flex {
+  padding: 0 0 0 1em;
+}
+
+.todo-list .flex p {
+  padding: 0 0 0 0.5em;
+  font-weight: 300;
+}
+
+.delete-todo-btn {
+  font-family: "Poppins", sans-serif;
+  background: rgb(235, 52, 52);
+  border: none;
+  color: white;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  margin: 0 1em 0 0;
+  outline: none;
+  border-radius: 1px;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +141,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
