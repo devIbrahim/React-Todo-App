@@ -46,8 +46,19 @@ class App extends Component {
   render() {
     return (
       <div>
-        <img className="logo" src={logo} width="100" height="100" />
+        <img alt="" className="logo" src={logo} width="100" height="100" />
         <h1 className="app-title">React ToDo App</h1>
+        <span className="credits">
+          Made by
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://developeribrahim.imfast.io"
+          >
+            {" "}
+            Syed Anees Ibrahim.
+          </a>
+        </span>
         <div className="container">
           <form
             onSubmit={(e) => {
